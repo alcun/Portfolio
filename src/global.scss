@@ -1,0 +1,20 @@
+
+@font-face {
+    font-family: "Agressive";
+    src: local("Agressive"),
+     url("./fonts/Agressive.ttf") format("truetype");
+    font-weight: bold;
+    }
+
+$mainColor: rgb(54, 190, 235);
+
+$mainFont: 'Agressive';
+
+
+$width: 768px;
+
+@mixin mobile {
+    @media (max-width: #{$width}) {
+        @content
+    }
+}

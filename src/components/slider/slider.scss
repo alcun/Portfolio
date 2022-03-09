@@ -1,0 +1,179 @@
+@import "../../global.scss";
+
+.slider {
+  position: relative;
+  width: 80%;
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  border-radius: 10px;
+  border: $mainColor 3px solid;
+
+   h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 2vw;
+    @include mobile{
+      font-size: 3.5vw;
+    }
+  }
+  
+  h4 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.5vw;
+    @include mobile{
+      font-size: 3.0vw;
+    }
+  }
+
+  .right-arrow {
+    position: absolute;
+    top: 50%;
+    right: 0.2%;
+    font-size: 3rem;
+    color: $mainColor;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+    background-color: black;
+    border-radius: 10%;
+    border: 2px solid $mainColor;
+
+    @include mobile {
+      background-color: transparent;
+      border: none;
+    }
+
+
+  }
+
+  .right-arrow:hover {
+    color: black;
+    background-color: $mainColor;
+    border: 2px solid black;
+
+  }
+
+  .left-arrow {
+    position: absolute;
+    top: 50%;
+    left: 0.2%;
+    font-size: 3rem;
+    color: $mainColor;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+    background-color: black;
+    border-radius: 10%;
+    border: 2px solid $mainColor;
+
+    @include mobile {
+      background-color: transparent;
+      border: none;
+    }
+  }
+
+  .left-arrow:hover {
+    color: black;
+    background-color: $mainColor;
+    border: 2px solid black;
+
+  }
+
+
+  .slide {
+    opacity: 0;
+    transition: ease all 1s;
+    display: none;
+  }
+
+  .slide.active {
+    opacity: 1;
+    transition: ease all 1s;
+    display: flex;
+    padding: 2%;
+    @include mobile {
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+    .left {
+      height: 62vh;
+      width: 40%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background-color: black;
+      // border: $mainColor 5px solid;
+      border-radius: 10px;
+      padding: 1%;
+      font-size: 20px;
+      border: $mainColor 5px solid;
+
+
+      @include mobile {
+        width: 90%;
+        height: 34vh;
+        font-size: 12px;
+
+     
+
+      
+      }
+
+      .links {
+        display: flex;
+        margin: 10px;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 1.5vw;
+        padding: 10px;
+        color: white;
+
+        @include mobile {
+          font-size: 3vw;
+        }
+  
+
+        // .gitLink {
+
+        // }
+        // .liveLink {
+
+        // }
+      }
+    }
+
+    .right {
+      width: 60%;
+      display: flex;
+      height: 62vh;
+      padding: 1%;
+      justify-content: center;
+      align-items: center;
+      background-color: grey;
+
+
+
+      @include mobile {
+        height: 34vh;
+        width: 95%;
+      }
+
+
+      .image {
+        width: 100%;
+        border-radius: 10px;
+        border: $mainColor 5px solid;
+
+        @include mobile {
+          width: 95%;
+          max-width: 320px;
+        }
+
+      }
+    }
+  }
+}

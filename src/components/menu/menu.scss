@@ -1,0 +1,82 @@
+@import "../../global.scss";
+
+
+.menu{
+    width: 300px;
+    height: 100vh;
+    background-color: $mainColor;
+    position:fixed;
+    top: 0;
+    right: -300px;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transition: all ease 1s;
+
+    &.active{
+        right: 0;
+    }
+
+    ul {
+        
+        list-style: none;
+        font-size: 1.5vw;
+        color: black;
+        font-weight: 200;
+        text-align: left;
+        padding-left: 5px;
+
+        @include mobile {
+            font-size: 4.5vw;
+          }
+        
+
+        li{
+            margin-top: 30px;
+            margin-bottom: 30px;
+
+            a{
+                font-size: inherit;
+                color: inherit;
+                
+            }
+        }
+        &:hover{
+            font-weight: 500;
+        }
+    }
+
+    .linkButtons{
+        display: flex;
+        flex-direction: column;
+        font-size: 2vw;
+        justify-content: flex-start ;
+        padding: 5px;
+        
+        @include mobile {
+            font-size: 6vw;
+          }
+
+        a {
+            color: black;
+        }
+
+        .musicLink {
+            display: flex;
+            justify-content: space-around;
+            cursor: pointer;
+            flex-direction: column;
+            align-items: center;
+        }
+        .repoLink{
+            display: flex;
+            justify-content: space-around;
+            cursor: pointer;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}
+
