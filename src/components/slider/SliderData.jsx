@@ -26,7 +26,7 @@ export const SliderData = [
     id: 1,
     name: "Keystone Therapies",
     image: keyThumb,
-    desc: "[COMING SOON] Fully responsive physical therapy ecommerce site with animated React front-end, scheduling and payments.",
+    desc: "[COMING SOON] Client specced fully responsive physical therapy ecommerce site with animated React front-end, scheduling and payments.",
     tech1: "ReactJS + Hooks",
     tech2: "Styled Components",
     tech3: "Trafft Scheduling",
@@ -41,7 +41,7 @@ export const SliderData = [
     tech1: "ReactJS + Hooks",
     tech2: "Thirdweb Smartcontracts",
     tech3: "Hardhat EthNet Compiler",
-    link: "arkdao.netlify.com",
+    link: "https://arkdao.netlify.com",
     repoLink: "https://github.com/alcun/js-pomodoro-timer",
   },
   {
