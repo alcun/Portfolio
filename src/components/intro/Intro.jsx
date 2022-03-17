@@ -34,7 +34,7 @@ export default function Intro({ power, setPower, Init, setInit }) {
         strings: [
           "Hello. Welcome to my site.",
           "My name is Alasdair - I'm a frontend developer and designer.",
-          "I strive to build striking and functional user experiences.",
+          "I specialise in using ReactJS to build striking and functional user experiences.",
           "This site was made to showcase some skills and projects.",
           "Feel free to look around - you can begin by scrolling down or clicking the arrow icon.",
           "I hope you enjoy your time here :)",
