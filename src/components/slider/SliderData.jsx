@@ -10,7 +10,7 @@ import tributeThumb from './assets/tribute-thumb.png'
 import portThumb from './assets/port-thumb.png'
 import audioThumb from './assets/audio-thumb.png'
 import arkThumb from './assets/ark-thumb.png'
-import keyThumb from './assets/key-thumb.png'
+import keyThumb from './assets/key-thumb2.png'
 
 
 
@@ -22,28 +22,28 @@ import keyThumb from './assets/key-thumb.png'
 
 
 export const SliderData = [
-  // {
-  //   id: 1,
-  //   name: "Keystone Therapies",
-  //   image: keyThumb,
-  //   desc: "[COMING SOON] Client specced fully responsive physical therapy ecommerce site with animated React front-end, scheduling and payments.",
-  //   tech1: "ReactJS + Hooks",
-  //   tech2: "Styled Components",
-  //   tech3: "Trafft Scheduling",
-  //   link: "",
-  //   repoLink: "",
-  // },
-  // {
-  //   id: 2,
-  //   name: "ArkDAO",
-  //   image: arkThumb,
-  //   desc: "A Rinkeby Testnet prototype for an animal charity DAO. A Metamask user can mint a membership NFT. Members can view voting proposals and the ERC-20 governance treasury.",
-  //   tech1: "ReactJS + Hooks",
-  //   tech2: "Thirdweb Smartcontracts",
-  //   tech3: "Hardhat EthNet Compiler",
-  //   link: "https://arkdao.netlify.com",
-  //   repoLink: "https://github.com/alcun/js-pomodoro-timer",
-  // },
+  {
+    id: 1,
+    name: "Keystone Therapies",
+    image: keyThumb,
+    desc: "Fully responsive physical therapy ecommerce site with animated React front-end, scheduling and payments.",
+    tech1: "ReactJS + Hooks",
+    tech2: "Styled Components",
+    tech3: "Trafft Scheduling",
+    link: "https://keystone-therapies.co.uk",
+    repoLink: "",
+  },
+  {
+    id: 2,
+    name: "ArkDAO",
+    image: arkThumb,
+    desc: "A Rinkeby Testnet prototype for an animal charity DAO. A Metamask user can mint a membership NFT. Members can view voting proposals and the ERC-20 governance treasury.",
+    tech1: "ReactJS + Hooks",
+    tech2: "Thirdweb Smartcontracts",
+    tech3: "Hardhat EthNet Compiler",
+    link: "https://arkdao.netlify.com",
+    repoLink: "https://github.com/alcun/js-pomodoro-timer",
+  },
   {
     id: 3,
     name: "Pomodoro Timer",
