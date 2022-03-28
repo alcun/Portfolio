@@ -31,7 +31,7 @@ export const SliderData = [
     tech2: "Styled Components",
     tech3: "Trafft Scheduling",
     link: "https://keystone-therapies.co.uk",
-    repoLink: "https://https://github.com/alcun/Keystone",
+    repoLink: "https://github.com/alcun/Keystone",
   },
   {
     id: 2,
