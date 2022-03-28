@@ -63,6 +63,11 @@
       
     }
 
+
+
+
+
+
     .right {
       width: 60%;
       height: 90%;
@@ -83,7 +88,11 @@
       }
 
       p {
-        font-size: 0.8rem;
+        font-size: 20px;
+        @include mobile {
+          font-size: 12px;
+    
+        }
       }
 
       form {
