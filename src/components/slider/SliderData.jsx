@@ -26,7 +26,7 @@ export const SliderData = [
     id: 1,
     name: "Keystone Therapies",
     image: keyThumb,
-    desc: "Fully responsive physical therapy ecommerce site with animated ReactJS component based front-end, React Router url handling, scheduling, payments and useState POST object health form. [ver: final image and copy review]",
+    desc: "Fully responsive physical therapy ecommerce site with animated ReactJS component based front-end, React Router url handling, scheduling, payments and useState POST object health form.",
     tech1: "ReactJS + Hooks",
     tech2: "Styled Components",
     tech3: "Trafft Scheduling",
